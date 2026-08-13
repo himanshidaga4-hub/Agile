@@ -1,0 +1,14 @@
+{
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
+  "description": "Simple Node.js API demonstrating GitHub Actions CI/CD",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "lint": "node --check src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
